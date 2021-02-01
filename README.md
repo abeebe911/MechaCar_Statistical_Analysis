@@ -17,24 +17,22 @@ For all manufacturing lots in total, the variance does not exceed 100 pounds per
 ### Lot Summary
 ![lot_summary.png](images/lot_summary.png)
 
-Lot 1 and 2 have a variance that does not exceed 100 pounds per square inch. Specifically, Lot 1 has a variance of 1.0 while lot 2 has a variance of 7.5. Also, Lot 3 does not meet coil variance expectations, their variance is 170.2 which exceeds the 100 pounds variance limit.
-
 ## T-Tests on Suspension Coils
 
 ### T-Test for All
 ![t-test for all.png](images/t-test for all.png)
 
-Assuming the significance level was the common 0.05 percent, our p-value(1) is above the significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis.
+Assuming the significance level was the common 0.05 percent, our p-value(.06028) is above the significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis.
 
 ### T-Test for Lot 1
 ![lot1_test.png](images/lot1_test.png)
 
-Assuming the significance level was the common 0.05 percent, our p-value(1.568 x 10-11) is lower than the significance level. Therefore, we do have sufficient evidence to reject the null hypothesis.
+Assuming the significance level was the common 0.05 percent, our p-value(1) is higher than the significance level. This p-value represents a normal distribution.
 
 ### T-Test for Lot 2
 ![lot2_test.png](images/lot2_test.png)
 
-Assuming the significance level was the common 0.05 percent, our p-value(0.0006) is lower than the significance level. Therefore, we do have sufficient evidence to reject the null hypothesis.
+Assuming the significance level was the common 0.05 percent, our p-value(0.6072) is higher than the significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis.
 
 
 ## Study Design: MechaCar vs. Competition
